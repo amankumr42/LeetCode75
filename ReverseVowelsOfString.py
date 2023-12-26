@@ -11,4 +11,5 @@ class Solution:
             if i < j:
                 cs[i], cs[j] = cs[j], cs[i]
                 i, j = i + 1, j - 1
+                
         return "".join(cs)
